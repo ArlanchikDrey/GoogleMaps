@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_personal_account"
+        android:icon="@drawable/ic_person_cabinet_24dp"
+        android:title="@string/personal_account" />
+
+    <item
+        android:id="@+id/navigation_record"
+        android:icon="@drawable/ic_place_black_24dp"
+        android:title="@string/record" />
+
+    <item
+        android:id="@+id/navigation_my_records"
+        android:icon="@drawable/ic_my_records_24dp"
+        android:title="@string/my_records" />
+    <item
+        android:id="@+id/navigation_discount"
+        android:icon="@drawable/ic_local_offer_black_24dp"
+        android:title="@string/discount" />
+
+</menu>

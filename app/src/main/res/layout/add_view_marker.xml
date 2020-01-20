@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp">
+
+
+        <TextView
+            android:id="@+id/nameCompanyMarker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Автомойка SuperFreeWash"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"
+            />
+        <TextView
+            android:id="@+id/adressMarker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nameCompanyMarker"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Адрес:Москва, улица 53, дом 4"/>
+        <TextView
+            android:id="@+id/priceMarker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/adressMarker"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Цены:100-300 P"/>
+        <TextView
+            android:id="@+id/modeWorkTimeMarker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/priceMarker"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="С 8:00 до 19:00"/>
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/modeWorkTimeMarker"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/transparent"
+            android:text="Записаться" />
+
+        <TextView
+            android:id="@+id/distanceMarker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button"
+            android:layout_alignEnd="@+id/adressMarker"
+            android:text="2.3km" />
+
+    </RelativeLayout>
+
+</FrameLayout>

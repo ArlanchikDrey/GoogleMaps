@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Автомойки</string>
+    <string name="title_activity_maps">Map</string>
+
+    //регистрация пользователя
+    <string name="enterYourPhoneNumber">Введите номер телефона</string>
+    <string name="enterYourName">Введите Ваше имя</string>
+    <string name="enterYourCity">Введите Ваш город</string>
+    <string name="enter">Войти</string>
+
+    //основное меню
+    <string name="personal_account">Личный кабинет</string>
+    <string name="record">Запись </string>
+    <string name="my_records">Мои записи</string>
+    <string name="discount">Акции </string>
+
+    //личный кабинет пользователя
+    <string name="personalAccountUser_name">Имя</string>
+    <string name="personalAccountUser_city">Город</string>
+    <string name="personalAccountUser_numberphone">Номер</string>
+    <string name="personalAccountUser_email">Ваш-email</string>
+    <string name="personalAccountUser_save_changes">Сохранить изменения</string>
+    <string name="personalAccountUser_aboutApp">О приложении</string>
+    <string name="personalAccountUser_logout">Выйти из аккаунта</string>
+</resources>
